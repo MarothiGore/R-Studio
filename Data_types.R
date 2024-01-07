@@ -47,7 +47,7 @@ t2
 
 
 
-#Acesssing elements form Vector
+#Accessing elements form Vector
 
 t<-c(23,56,78,8,67)
 class(t)
@@ -57,3 +57,19 @@ t[c(1,5)]
 t
 #List Creation
 #Data  Frame Creation
+
+
+
+
+lst=list(10,1,2,TRUE,'R-session')
+lst
+View(lst)
+
+lst[1:4]
+lst[4]<-34
+lst
+View(lst)
+lst[5]<-'R-session'
+lst[5]<-'Marothi Gore is good coder'
+View(lst)
+
